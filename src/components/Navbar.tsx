@@ -25,7 +25,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isDarkMode, toggleDarkMo
       <div className="flex items-center">
         <button 
           onClick={toggleSidebar}
-          className="p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:bg-gray-700 mr-2"
+          className="p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:bg-gray-700"
         >
           <Menu size={20} />
         </button>

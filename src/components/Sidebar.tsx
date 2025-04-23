@@ -20,9 +20,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar, currentPath, i
   return (
     <aside 
       className={`fixed inset-y-0 left-0 z-50 w-64 transition-transform duration-300 transform 
-        ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 
-        ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-800'} 
-        border-r ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}
+      ${isOpen ? 'translate-x-0' : '-translate-x-full'}
+      ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-800'} 
+      border-r ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}
     >
       <div className="h-full flex flex-col">
         <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
@@ -32,7 +32,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar, currentPath, i
           </div>
           <button 
             onClick={toggleSidebar}
-            className="md:hidden p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:bg-gray-700"
+            className="p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-gray-200 dark:hover:bg-gray-700"
           >
             <X size={20} />
           </button>

@@ -18,7 +18,8 @@ def generate_mock_fiis(count=20):
         'HGLG11', 'KNRI11', 'XPLG11', 'VISC11', 'BTLG11', 
         'HGRE11', 'HSML11', 'RBRP11', 'VILG11', 'MALL11',
         'VINO11', 'MXRF11', 'KNCR11', 'RECT11', 'HFOF11',
-        'RBRF11', 'GGRC11', 'VRTA11', 'TGAR11', 'XPML11'
+        'RBRF11', 'GGRC11', 'VRTA11', 'TGAR11', 'XPML11',
+        'CPTS11'
     ]
     
     names = [

@@ -153,7 +153,7 @@ const DataTable: React.FC<DataTableProps> = ({ data, title }) => {
                   <td className="px-6 py-4 whitespace-nowrap font-medium">
                     R$ {fii.price}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
+                  <td className="px-6 py-4 whitespace-nowrap ">
                     <span 
                       className={`${parseFloat(fii.dy) > 0 ? 'text-success-500' : 'text-error-500'}`}
                     >

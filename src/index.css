@@ -13,6 +13,7 @@
   
   h1, h2, h3, h4, h5, h6 {
     @apply font-medium leading-tight;
+    color: white;
   }
   
   h1 {
@@ -85,4 +86,12 @@
 .fade-exit-active {
   opacity: 0;
   transition: opacity 200ms;
+}
+
+td{
+  color: white
+}
+
+p{
+  color: white;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Database, BarChart2, Brain, AlertTriangle } from 'lucide-react';
+import { color } from 'chart.js/helpers';
 
 const About: React.FC = () => {
   return (
@@ -19,7 +20,7 @@ const About: React.FC = () => {
         </p>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 color:white">
         <div className="card">
           <div className="flex items-start mb-4">
             <div className="p-2 rounded-full bg-primary-50 dark:bg-primary-900/30 mr-3">
